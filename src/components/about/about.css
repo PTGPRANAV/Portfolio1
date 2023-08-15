@@ -115,7 +115,7 @@
         gap: 2rem;
     }
 
-    .about-left>img {
+    .about-left>a>img {
         height: 50px;
         width: 50px;
         margin: 20px;
@@ -171,7 +171,7 @@
         gap: .3rem;
     }
 
-    .about-left>img {
+    .about-left>a>img {
         height: 30px;
         width: 30px;
         margin: 20px;
@@ -227,7 +227,7 @@
         gap: 0rem;
     }
 
-    .about-left>img {
+    .about-left>a>img {
         height: 30px;
         width: 30px;
         margin: 20px;
@@ -291,7 +291,7 @@
         gap: 0rem;
     }
 
-    .about-left>img {
+    .about-left>a>img {
         height: 30px;
         width: 30px;
         margin: 20px;
@@ -331,8 +331,8 @@
     }
 
     .who-am-i {
-        bottom: 10px;
-        margin-left: 20px;
+        bottom: 0px;
+        margin-left: 0px;
         position: absolute;
         top: 80px;
     }
@@ -354,7 +354,7 @@
         gap: 0rem;
     }
 
-    .about-left>img {
+    .about-left>a>img {
         height: 30px;
         width: 30px;
         margin: 20px;
