@@ -1,0 +1,13 @@
+.scroll-preview-window {
+    width: 100px; /* Set the width to 10% of the viewport width */
+    max-height: 100px; /* Set the maximum height to 80% of the viewport height */
+    overflow-y: auto;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    border: 1px solid #ccc;
+    background-color: black;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  

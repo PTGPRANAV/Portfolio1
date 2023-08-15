@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&family=Permanent+Marker&family=Poppins:wght@300;400;500;600&family=Zeyada&display=swap');
+
+/* font-family: 'Changa One', cursive;
+font-family: 'Poppins', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url('../src/assets/font1.otf');
+}
+
+:root{
+    --color-bg: #1f1f38;
+    --color-bg-variant: #2c2c6c;
+    --color-dark: #393E46;
+    --color-dark-variant: ;
+    --color-primary: #8a2be2; 
+    --color-primeary-variant: rgba(77, 181, 255, 0.4);
+    --color-white: #F9F5F6;
+    --color-light: rgba(255,255, 255, 0.6);
+
+    --transition: all 400ms ease;
+
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-widht-sm: 90%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif; 
+    background-color: white;
+    /* rgb(30, 132, 127) */
+    /* #DDE6ED */
+    background: linear-gradient(245.59deg, #4d9559 0%, #38703d 28.53%, #133917 75.52);
+    color: black;
+    line-height: 1.7;
+    text-decoration: none;
+}
+
+/*============ General Styles ===============*/
+.container{
+    width: var(--container-width-lg);
+    margin: 0 auto;
+}
+
+/* h1, h2 h3 ->font-weight */
+
+h1{
+    font-size: 5 rem;
+}
+h2{
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 2rem;
+}
+h6{
+    font-size: 0.7rem;
+}
+
+section{
+    height: 650px;
+}
+
+label{
+    color: black;
+}
+
+a{
+    color: var(--color-primary);
+    transition: var(--transition);
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--color-white);
+}
+
+.zeyada{
+    font-family: "zeyada", cursive;
+    font-weight: 700;
+}
+.changa-One{
+    font-family: myFirstFont;
+    margin: 0px;
+    /* color: #ED2B2A; */
+}
+.gobli{
+    font-family: myFirstFont;;
+    color: var(--color-primary);
+}
+.btn{
+    width: max-content;
+    display: inline-block;
+    color: var(--color-primary);
+    padding: 0.75rem 1.2rem;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px, solid var(--color-primary);
+    transition: var(--transition);
+    filter: drop-shadow(0.5px 0.5px 2px);
+}
+.btn-small{
+    width: max-content;
+    display: inline-block;
+    color: var(--color-primary);
+    padding: 0.2rem 0.2rem;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px, solid var(--color-primary);
+    transition: var(--transition);
+    background: var(--color-primary);
+    color: var(--color-white);
+}
+
+.btn:hover{
+    background-color: var(--color-dark);
+    color: var(--color-white);
+    border-color: transparent;
+}
+.btn-small:hover{
+    background-color: var(--color-dark);
+    color: var(--color-white);
+    border-color: transparent;
+}
+
+.btn-primary{
+    background: var(--color-primary);
+    color: var(--color-white);
+}
+
+img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.center-text{
+    margin-left:0%;
+}
+
+
+
+  
+
+/* ========== Media queries ============ */
+
+@media screen and (max-width: 1400px) {
+    section{
+        height: 900px;
+    }
+}

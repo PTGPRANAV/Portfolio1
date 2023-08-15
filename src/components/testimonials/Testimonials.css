@@ -1,0 +1,47 @@
+#testimonials{
+    height: 700px;
+}
+.project-card{
+    display: flex;
+    width: 100%;
+    margin-top: 0px;
+    height: 300px;
+}
+.left-project{
+    width: 40%;
+    margin: 20px;
+}
+.Right-project>img{
+    border-radius: 10px;
+    height: 70%;
+    width: 70%;
+}
+
+.heading{
+    color: var(--color-primary);
+    margin: 0px;
+    padding: 0px;
+    font-family: myFirstFont;
+    font-size: 2rem;
+}
+
+
+/* ==================================media queries================================== */
+@media screen and (max-width: 900px) {
+    .project-card{
+        display: block;
+        width: 100%;
+        margin-top: 0px;
+        height: 670px;
+    }
+    #testimonials{
+        height: 1700px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .project-card{
+        height: 750px;
+    }
+}
+
